@@ -29,5 +29,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           deploy_key: ${{ secrets.DEPLOY_KEY }}
-          publish_dir: ./dist
+          publish_dir: ./
           force_orphan: true
